@@ -1,0 +1,810 @@
+[
+  {
+    "ref": "R00001.00",
+    "q": "PUBID",
+    "year": "1997",
+    "start": 32324268,
+    "label": "PUBID, YOUTH CASE IDENTIFICATION CODE",
+    "end": 32325148
+  },
+  {
+    "ref": "R05363.00",
+    "q": "KEY!SEX",
+    "year": "1997",
+    "start": 38282403,
+    "label": "KEY!SEX, RS SEX (SYMBOL)",
+    "end": 38283020
+  },
+  {
+    "ref": "R05387.00",
+    "q": "KEY!RACE",
+    "year": "1997",
+    "start": 38291937,
+    "label": "KEY!RACE, RACE OF R (SYMBOL)",
+    "end": 38292713
+  },
+  {
+    "ref": "R05364.02",
+    "q": "KEY!BDATE_Y",
+    "year": "1997",
+    "start": 38283996,
+    "label": "KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)",
+    "end": 38284614
+  },
+  {
+    "ref": "U63601.02",
+    "q": "CV_INTERVIEW_DATE~Y",
+    "year": "2023",
+    "start": 312875857,
+    "label": "YEAR R INTERVIEWED",
+    "end": 312876488
+  },
+  {
+    "ref": "U63601.01",
+    "q": "CV_INTERVIEW_DATE~M",
+    "year": "2023",
+    "start": 312874917,
+    "label": "MONTH R INTERVIEWED",
+    "end": 312875857
+  },
+  {
+    "ref": "U63499.00",
+    "q": "CV_AGE_INT_DATE",
+    "year": "2023",
+    "start": 312733459,
+    "label": "RS AGE AT INTERVIEW DATE",
+    "end": 312734149
+  },
+  {
+    "ref": "U63563.00",
+    "q": "CV_HGC_EVER_EDT",
+    "year": "2023",
+    "start": 312825000,
+    "label": "RS HIGHEST GRADE COMPLETED",
+    "end": 312826250
+  },
+  {
+    "ref": "U63612.00",
+    "q": "CV_MARSTAT",
+    "year": "2023",
+    "start": 312882388,
+    "label": "RS MARITAL/COHABIT STATUS",
+    "end": 312883396
+  },
+  {
+    "ref": "R13025.00",
+    "q": "CV_HGC_BIO_MOM",
+    "year": "1997",
+    "start": 43863365,
+    "label": "BIOLOGICAL MOTHERS HIGHEST GRADE COMPLETED",
+    "end": 43864696
+  },
+  {
+    "ref": "R13024.00",
+    "q": "CV_HGC_BIO_DAD",
+    "year": "1997",
+    "start": 43862034,
+    "label": "BIOLOGICAL FATHERS HIGHEST GRADE COMPLETED",
+    "end": 43863365
+  },
+  {
+    "ref": "U63500.00",
+    "q": "CV_CENSUS_REGION",
+    "year": "2023",
+    "start": 312734149,
+    "label": "CENSUS REGION OF RESIDENCE",
+    "end": 312735162
+  },
+  {
+    "ref": "U63614.00",
+    "q": "CV_MSA",
+    "year": "2023",
+    "start": 312884123,
+    "label": "R CURRENTLY RESIDE IN MSA - 2020 CENSUS STANDARDS",
+    "end": 312884967
+  },
+  {
+    "ref": "U72689.00",
+    "q": "HHI_AGE.01",
+    "year": "2023",
+    "start": 325041853,
+    "label": "HHI, AGE OF HH MEMBER 01 AS OF INTDATE (ROS ITEM)",
+    "end": 325042761
+  },
+  {
+    "ref": "U72785.00",
+    "q": "HHI_RELY.01",
+    "year": "2023",
+    "start": 325114028,
+    "label": "HHI, HH MEMBER 01 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325117850
+  },
+  {
+    "ref": "U72773.00",
+    "q": "HHI_HIGHGRADE.01",
+    "year": "2023",
+    "start": 325098680,
+    "label": "HHI, HH MEMBER 01 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325099959
+  },
+  {
+    "ref": "U72690.00",
+    "q": "HHI_AGE.02",
+    "year": "2023",
+    "start": 325042761,
+    "label": "HHI, AGE OF HH MEMBER 02 AS OF INTDATE (ROS ITEM)",
+    "end": 325043669
+  },
+  {
+    "ref": "U72786.00",
+    "q": "HHI_RELY.02",
+    "year": "2023",
+    "start": 325117850,
+    "label": "HHI, HH MEMBER 02 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325121672
+  },
+  {
+    "ref": "U72774.00",
+    "q": "HHI_HIGHGRADE.02",
+    "year": "2023",
+    "start": 325099959,
+    "label": "HHI, HH MEMBER 02 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325101238
+  },
+  {
+    "ref": "U72691.00",
+    "q": "HHI_AGE.03",
+    "year": "2023",
+    "start": 325043669,
+    "label": "HHI, AGE OF HH MEMBER 03 AS OF INTDATE (ROS ITEM)",
+    "end": 325044577
+  },
+  {
+    "ref": "U72787.00",
+    "q": "HHI_RELY.03",
+    "year": "2023",
+    "start": 325121672,
+    "label": "HHI, HH MEMBER 03 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325125494
+  },
+  {
+    "ref": "U72775.00",
+    "q": "HHI_HIGHGRADE.03",
+    "year": "2023",
+    "start": 325101238,
+    "label": "HHI, HH MEMBER 03 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325102517
+  },
+  {
+    "ref": "U72692.00",
+    "q": "HHI_AGE.04",
+    "year": "2023",
+    "start": 325044577,
+    "label": "HHI, AGE OF HH MEMBER 04 AS OF INTDATE (ROS ITEM)",
+    "end": 325045510
+  },
+  {
+    "ref": "U72788.00",
+    "q": "HHI_RELY.04",
+    "year": "2023",
+    "start": 325125494,
+    "label": "HHI, HH MEMBER 04 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325129316
+  },
+  {
+    "ref": "U72776.00",
+    "q": "HHI_HIGHGRADE.04",
+    "year": "2023",
+    "start": 325102517,
+    "label": "HHI, HH MEMBER 04 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325103796
+  },
+  {
+    "ref": "U72693.00",
+    "q": "HHI_AGE.05",
+    "year": "2023",
+    "start": 325045510,
+    "label": "HHI, AGE OF HH MEMBER 05 AS OF INTDATE (ROS ITEM)",
+    "end": 325046418
+  },
+  {
+    "ref": "U72789.00",
+    "q": "HHI_RELY.05",
+    "year": "2023",
+    "start": 325129316,
+    "label": "HHI, HH MEMBER 05 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325133138
+  },
+  {
+    "ref": "U72777.00",
+    "q": "HHI_HIGHGRADE.05",
+    "year": "2023",
+    "start": 325103796,
+    "label": "HHI, HH MEMBER 05 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325105075
+  },
+  {
+    "ref": "U72694.00",
+    "q": "HHI_AGE.06",
+    "year": "2023",
+    "start": 325046418,
+    "label": "HHI, AGE OF HH MEMBER 06 AS OF INTDATE (ROS ITEM)",
+    "end": 325047326
+  },
+  {
+    "ref": "U72790.00",
+    "q": "HHI_RELY.06",
+    "year": "2023",
+    "start": 325133138,
+    "label": "HHI, HH MEMBER 06 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325136960
+  },
+  {
+    "ref": "U72778.00",
+    "q": "HHI_HIGHGRADE.06",
+    "year": "2023",
+    "start": 325105075,
+    "label": "HHI, HH MEMBER 06 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325106354
+  },
+  {
+    "ref": "U72695.00",
+    "q": "HHI_AGE.07",
+    "year": "2023",
+    "start": 325047326,
+    "label": "HHI, AGE OF HH MEMBER 07 AS OF INTDATE (ROS ITEM)",
+    "end": 325048234
+  },
+  {
+    "ref": "U72791.00",
+    "q": "HHI_RELY.07",
+    "year": "2023",
+    "start": 325136960,
+    "label": "HHI, HH MEMBER 07 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325140782
+  },
+  {
+    "ref": "U72779.00",
+    "q": "HHI_HIGHGRADE.07",
+    "year": "2023",
+    "start": 325106354,
+    "label": "HHI, HH MEMBER 07 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325107633
+  },
+  {
+    "ref": "U72696.00",
+    "q": "HHI_AGE.08",
+    "year": "2023",
+    "start": 325048234,
+    "label": "HHI, AGE OF HH MEMBER 08 AS OF INTDATE (ROS ITEM)",
+    "end": 325049142
+  },
+  {
+    "ref": "U72792.00",
+    "q": "HHI_RELY.08",
+    "year": "2023",
+    "start": 325140782,
+    "label": "HHI, HH MEMBER 08 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325144604
+  },
+  {
+    "ref": "U72780.00",
+    "q": "HHI_HIGHGRADE.08",
+    "year": "2023",
+    "start": 325107633,
+    "label": "HHI, HH MEMBER 08 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325108912
+  },
+  {
+    "ref": "U72697.00",
+    "q": "HHI_AGE.09",
+    "year": "2023",
+    "start": 325049142,
+    "label": "HHI, AGE OF HH MEMBER 09 AS OF INTDATE (ROS ITEM)",
+    "end": 325050050
+  },
+  {
+    "ref": "U72793.00",
+    "q": "HHI_RELY.09",
+    "year": "2023",
+    "start": 325144604,
+    "label": "HHI, HH MEMBER 09 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325148426
+  },
+  {
+    "ref": "U72781.00",
+    "q": "HHI_HIGHGRADE.09",
+    "year": "2023",
+    "start": 325108912,
+    "label": "HHI, HH MEMBER 09 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325110191
+  },
+  {
+    "ref": "U72698.00",
+    "q": "HHI_AGE.10",
+    "year": "2023",
+    "start": 325050050,
+    "label": "HHI, AGE OF HH MEMBER 10 AS OF INTDATE (ROS ITEM)",
+    "end": 325050958
+  },
+  {
+    "ref": "U72794.00",
+    "q": "HHI_RELY.10",
+    "year": "2023",
+    "start": 325148426,
+    "label": "HHI, HH MEMBER 10 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325152248
+  },
+  {
+    "ref": "U72782.00",
+    "q": "HHI_HIGHGRADE.10",
+    "year": "2023",
+    "start": 325110191,
+    "label": "HHI, HH MEMBER 10 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325111470
+  },
+  {
+    "ref": "U72699.00",
+    "q": "HHI_AGE.11",
+    "year": "2023",
+    "start": 325050958,
+    "label": "HHI, AGE OF HH MEMBER 11 AS OF INTDATE (ROS ITEM)",
+    "end": 325051866
+  },
+  {
+    "ref": "U72795.00",
+    "q": "HHI_RELY.11",
+    "year": "2023",
+    "start": 325152248,
+    "label": "HHI, HH MEMBER 11 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325156070
+  },
+  {
+    "ref": "U72783.00",
+    "q": "HHI_HIGHGRADE.11",
+    "year": "2023",
+    "start": 325111470,
+    "label": "HHI, HH MEMBER 11 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325112749
+  },
+  {
+    "ref": "U72700.00",
+    "q": "HHI_AGE.12",
+    "year": "2023",
+    "start": 325051866,
+    "label": "HHI, AGE OF HH MEMBER 12 AS OF INTDATE (ROS ITEM)",
+    "end": 325052774
+  },
+  {
+    "ref": "U72796.00",
+    "q": "HHI_RELY.12",
+    "year": "2023",
+    "start": 325156070,
+    "label": "HHI, HH MEMBER 12 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325159892
+  },
+  {
+    "ref": "U72701.00",
+    "q": "HHI_AGE.13",
+    "year": "2023",
+    "start": 325052774,
+    "label": "HHI, AGE OF HH MEMBER 13 AS OF INTDATE (ROS ITEM)",
+    "end": 325053682
+  },
+  {
+    "ref": "U72797.00",
+    "q": "HHI_RELY.13",
+    "year": "2023",
+    "start": 325159892,
+    "label": "HHI, HH MEMBER 13 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325163714
+  },
+  {
+    "ref": "U72702.00",
+    "q": "HHI_AGE.14",
+    "year": "2023",
+    "start": 325053682,
+    "label": "HHI, AGE OF HH MEMBER 14 AS OF INTDATE (ROS ITEM)",
+    "end": 325054590
+  },
+  {
+    "ref": "U72798.00",
+    "q": "HHI_RELY.14",
+    "year": "2023",
+    "start": 325163714,
+    "label": "HHI, HH MEMBER 14 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325167536
+  },
+  {
+    "ref": "U72784.00",
+    "q": "HHI_HIGHGRADE.14",
+    "year": "2023",
+    "start": 325112749,
+    "label": "HHI, HH MEMBER 14 HIGHEST GRADE COMPLETED (ROS ITEM)",
+    "end": 325114028
+  },
+  {
+    "ref": "U72703.00",
+    "q": "HHI_AGE.15",
+    "year": "2023",
+    "start": 325054590,
+    "label": "HHI, AGE OF HH MEMBER 15 AS OF INTDATE (ROS ITEM)",
+    "end": 325055498
+  },
+  {
+    "ref": "U72799.00",
+    "q": "HHI_RELY.15",
+    "year": "2023",
+    "start": 325167536,
+    "label": "HHI, HH MEMBER 15 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325171358
+  },
+  {
+    "ref": "U72704.00",
+    "q": "HHI_AGE.16",
+    "year": "2023",
+    "start": 325055498,
+    "label": "HHI, AGE OF HH MEMBER 16 AS OF INTDATE (ROS ITEM)",
+    "end": 325056406
+  },
+  {
+    "ref": "U72800.00",
+    "q": "HHI_RELY.16",
+    "year": "2023",
+    "start": 325171358,
+    "label": "HHI, HH MEMBER 16 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325175180
+  },
+  {
+    "ref": "U72705.00",
+    "q": "HHI_AGE.17",
+    "year": "2023",
+    "start": 325056406,
+    "label": "HHI, AGE OF HH MEMBER 17 AS OF INTDATE (ROS ITEM)",
+    "end": 325057314
+  },
+  {
+    "ref": "U72801.00",
+    "q": "HHI_RELY.17",
+    "year": "2023",
+    "start": 325175180,
+    "label": "HHI, HH MEMBER 17 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325179002
+  },
+  {
+    "ref": "U72706.00",
+    "q": "HHI_AGE.18",
+    "year": "2023",
+    "start": 325057314,
+    "label": "HHI, AGE OF HH MEMBER 18 AS OF INTDATE (ROS ITEM)",
+    "end": 325058222
+  },
+  {
+    "ref": "U72802.00",
+    "q": "HHI_RELY.18",
+    "year": "2023",
+    "start": 325179002,
+    "label": "HHI, HH MEMBER 18 RELATIONSHIP TO R (NUMERIC) (ROS ITEM)",
+    "end": 325182824
+  },
+  {
+    "ref": "U63568.00",
+    "q": "CV_HH_UNDER_6",
+    "year": "2023",
+    "start": 312831437,
+    "label": "NUMBER OF HOUSEHOLD MEMBERS UNDER AGE 6",
+    "end": 312832516
+  },
+  {
+    "ref": "U63567.00",
+    "q": "CV_HH_UNDER_18",
+    "year": "2023",
+    "start": 312830356,
+    "label": "NUMBER OF HOUSEHOLD MEMBERS UNDER AGE 18",
+    "end": 312831437
+  },
+  {
+    "ref": "Z90697.13",
+    "q": "CVC_HOURS_WK_YR_ALL.22",
+    "year": "XRND",
+    "start": 328622713,
+    "label": "TOTAL HOURS R HAS WORKED YEAR 22.",
+    "end": 328623960
+  },
+  {
+    "ref": "Z90667.13",
+    "q": "CVC_HOURS_WK_YR_ET.22",
+    "year": "XRND",
+    "start": 328568960,
+    "label": "TOTAL HOURS R AT EMPLOYEE-TYPE JOB YEAR 22.",
+    "end": 328570113
+  },
+  {
+    "ref": "U71502.00",
+    "q": "YINC-1400",
+    "year": "2023",
+    "start": 324230472,
+    "label": "R RECEIVE INCOME FROM JOB IN PAST YEAR?",
+    "end": 324231501
+  },
+  {
+    "ref": "U71504.00",
+    "q": "YINC-1700",
+    "year": "2023",
+    "start": 324232428,
+    "label": "TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR",
+    "end": 324234076
+  },
+  {
+    "ref": "U71506.00",
+    "q": "YINC-2000",
+    "year": "2023",
+    "start": 324235230,
+    "label": "ANY INCOME FROM OWN BUSINESS OR FARM IN PAST YEAR?",
+    "end": 324236073
+  },
+  {
+    "ref": "U71513.00",
+    "q": "YINC-2400",
+    "year": "2023",
+    "start": 324243897,
+    "label": "SPOUSE RECEIVE ANY INCOME FROM A JOB IN PAST YEAR?",
+    "end": 324244968
+  },
+  {
+    "ref": "U71517.00",
+    "q": "YINC-2600",
+    "year": "2023",
+    "start": 324248142,
+    "label": "SPOUSES TOTAL INCOME FROM WAGES AND SALARY PAST YEAR",
+    "end": 324249876
+  },
+  {
+    "ref": "U71519.00",
+    "q": "YINC-2900",
+    "year": "2023",
+    "start": 324251193,
+    "label": "SPOUSE RECEIVE INCOME FROM OWN BUSINESS OR FARM IN PAST YEAR?",
+    "end": 324252165
+  },
+  {
+    "ref": "U71515.00",
+    "q": "YINC-2510",
+    "year": "2023",
+    "start": 324245845,
+    "label": "NUMBER OF WEEKS SPOPAR WORKED IN PAST YEAR",
+    "end": 324247032
+  },
+  {
+    "ref": "U71516.00",
+    "q": "YINC-2520",
+    "year": "2023",
+    "start": 324247032,
+    "label": "HOW MANY HOURS PER WEEK SPOPAR WORKED IN PAST YEAR",
+    "end": 324248142
+  },
+  {
+    "ref": "U63564.00",
+    "q": "CV_INCOME_FAMILY",
+    "year": "2023",
+    "start": 312826250,
+    "label": "GROSS FAMILY INCOME",
+    "end": 312827778
+  },
+  {
+    "ref": "Z90638.00",
+    "q": "CVC_WKSWK_YR_ALL.98",
+    "year": "XRND",
+    "start": 328499840,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 98",
+    "end": 328501152
+  },
+  {
+    "ref": "Z90639.00",
+    "q": "CVC_WKSWK_YR_ALL.99",
+    "year": "XRND",
+    "start": 328501152,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 99",
+    "end": 328502464
+  },
+  {
+    "ref": "Z90610.00",
+    "q": "CVC_WKSWK_YR_ALL.00",
+    "year": "XRND",
+    "start": 328443549,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 00",
+    "end": 328444861
+  },
+  {
+    "ref": "Z90611.00",
+    "q": "CVC_WKSWK_YR_ALL.01",
+    "year": "XRND",
+    "start": 328444861,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 01",
+    "end": 328446173
+  },
+  {
+    "ref": "Z90612.00",
+    "q": "CVC_WKSWK_YR_ALL.02",
+    "year": "XRND",
+    "start": 328446173,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 02",
+    "end": 328447485
+  },
+  {
+    "ref": "Z90613.00",
+    "q": "CVC_WKSWK_YR_ALL.03",
+    "year": "XRND",
+    "start": 328447485,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 03",
+    "end": 328448797
+  },
+  {
+    "ref": "Z90614.00",
+    "q": "CVC_WKSWK_YR_ALL.04",
+    "year": "XRND",
+    "start": 328448797,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 04",
+    "end": 328450109
+  },
+  {
+    "ref": "Z90615.00",
+    "q": "CVC_WKSWK_YR_ALL.05",
+    "year": "XRND",
+    "start": 328450109,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 05",
+    "end": 328451421
+  },
+  {
+    "ref": "Z90616.00",
+    "q": "CVC_WKSWK_YR_ALL.06",
+    "year": "XRND",
+    "start": 328451421,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 06",
+    "end": 328452733
+  },
+  {
+    "ref": "Z90617.00",
+    "q": "CVC_WKSWK_YR_ALL.07",
+    "year": "XRND",
+    "start": 328452733,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 07",
+    "end": 328454045
+  },
+  {
+    "ref": "Z90618.00",
+    "q": "CVC_WKSWK_YR_ALL.08",
+    "year": "XRND",
+    "start": 328454045,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 08",
+    "end": 328455357
+  },
+  {
+    "ref": "Z90619.00",
+    "q": "CVC_WKSWK_YR_ALL.09",
+    "year": "XRND",
+    "start": 328455357,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 09",
+    "end": 328456669
+  },
+  {
+    "ref": "Z90619.01",
+    "q": "CVC_WKSWK_YR_ALL.10",
+    "year": "XRND",
+    "start": 328456669,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 10",
+    "end": 328457981
+  },
+  {
+    "ref": "Z90619.02",
+    "q": "CVC_WKSWK_YR_ALL.11",
+    "year": "XRND",
+    "start": 328457981,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 11",
+    "end": 328459293
+  },
+  {
+    "ref": "Z90619.03",
+    "q": "CVC_WKSWK_YR_ALL.12",
+    "year": "XRND",
+    "start": 328459293,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 12",
+    "end": 328460605
+  },
+  {
+    "ref": "Z90619.04",
+    "q": "CVC_WKSWK_YR_ALL.13",
+    "year": "XRND",
+    "start": 328460605,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 13",
+    "end": 328461917
+  },
+  {
+    "ref": "Z90619.05",
+    "q": "CVC_WKSWK_YR_ALL.14",
+    "year": "XRND",
+    "start": 328461917,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 14",
+    "end": 328463229
+  },
+  {
+    "ref": "Z90619.06",
+    "q": "CVC_WKSWK_YR_ALL.15",
+    "year": "XRND",
+    "start": 328463229,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 15",
+    "end": 328464541
+  },
+  {
+    "ref": "Z90619.07",
+    "q": "CVC_WKSWK_YR_ALL.16",
+    "year": "XRND",
+    "start": 328464541,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 16",
+    "end": 328465853
+  },
+  {
+    "ref": "Z90619.08",
+    "q": "CVC_WKSWK_YR_ALL.17",
+    "year": "XRND",
+    "start": 328465853,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 17",
+    "end": 328467165
+  },
+  {
+    "ref": "Z90619.09",
+    "q": "CVC_WKSWK_YR_ALL.18",
+    "year": "XRND",
+    "start": 328467165,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 18",
+    "end": 328468477
+  },
+  {
+    "ref": "Z90619.10",
+    "q": "CVC_WKSWK_YR_ALL.19",
+    "year": "XRND",
+    "start": 328468477,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 19",
+    "end": 328469789
+  },
+  {
+    "ref": "Z90619.11",
+    "q": "CVC_WKSWK_YR_ALL.20",
+    "year": "XRND",
+    "start": 328469789,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 20",
+    "end": 328471101
+  },
+  {
+    "ref": "Z90619.12",
+    "q": "CVC_WKSWK_YR_ALL.21",
+    "year": "XRND",
+    "start": 328471101,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 21",
+    "end": 328472413
+  },
+  {
+    "ref": "Z90619.13",
+    "q": "CVC_WKSWK_YR_ALL.22",
+    "year": "XRND",
+    "start": 328472413,
+    "label": "# WEEKS R WORKED ANY JOB YEAR 22",
+    "end": 328473725
+  },
+  {
+    "ref": "U63580.00",
+    "q": "CV_HRLY_PAY.01",
+    "year": "2023",
+    "start": 312848234,
+    "label": "WAGES - HOURLY RATE OF PAY FOR JOB 01",
+    "end": 312849716
+  },
+  {
+    "ref": "U63650.00",
+    "q": "CV_DOI_EMPLOYED",
+    "year": "2023",
+    "start": 312923255,
+    "label": "DATE OF INTERVIEW STATUS - EMPLOYED",
+    "end": 312924187
+  }
+]
